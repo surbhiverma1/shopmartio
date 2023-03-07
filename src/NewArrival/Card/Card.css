@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.avaCol{
+    font-size: 12px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 1rem;
+}
+.avalabl{
+    margin-left: 2rem;
+}
+.sideIcon{
+    display: flex;
+    padding: 2rem;
+}
+

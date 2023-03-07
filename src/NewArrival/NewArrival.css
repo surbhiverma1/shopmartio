@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@500&display=swap');
+
+/* @font-face{
+  font-family: "Myriad Pro";  
+ 
+  src: url('..../public/fonts/MyriadProRegular.ttf');
+} */
+
+
+.Available_Colors {
+  font-size: 12px;
+  font-family: "Roboto";
+  color: rgb(86, 102, 134);
+  /* line-height: 4.167; */
+
+}
+
+.jacketBG {
+  background-color: rgb(242, 243, 245);
+  position: relative;
+  cursor: pointer;
+  height: 22rem;
+  transition: 0.3s all;
+
+}
+
+.jacketBG:hover img {
+  opacity: 0.7;
+}
+
+.card-img-top {
+  height: 200px;
+  width: auto;
+}
+
+
+
+
+
+.nbtn {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(46 101 149);
+  line-height: 43px;
+
+  background-color: rgb(255, 255, 255);
+  margin-left: 0.5rem;
+  padding: 5px 30px;
+  border: 1px solid rgb(184, 193, 211);
+  transition: 0.7s all;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+
+}
+
+.nbtn:hover {
+  cursor: pointer;
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(96, 186, 190);
+
+
+
+}
+
+.new {
+  font-size: 30px;
+  font-family: "Roboto";
+  color: rgb(47, 57, 66);
+  font-weight: bold;
+  line-height: 1.667;
+
+
+}
+
+.ntop {
+
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(125, 143, 179);
+  line-height: 3.571;
+
+}
+
+.JacketDis {
+  font-size: 16px;
+  /* font-family: "Myriad Pro"; */
+  color: rgb(86, 102, 134);
+  line-height: 3.125;
+
+
+}
+
+.price {
+  font-size: 22px;
+  /* font-family: "Myriad Pro"; */
+  color: rgb(96, 186, 190);
+
+}
+
+.icon_back {
+  /* position: absolute; */
+  background-color: rgb(39, 32, 32);
+  color: aliceblue;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  border-radius: 50%;
+
+}

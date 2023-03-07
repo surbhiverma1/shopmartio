@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@500&display=swap');
+
+
+.Best_Seller {
+  font-size: 30px;
+  font-family: "Roboto";
+  color: rgb(47, 57, 66);
+  font-weight: bold;
+  line-height: 1.667;
+
+
+}
+
+.Exc {
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb(125, 143, 179);
+  line-height: 3.571;
+
+}
+
+.bestcloth {
+  position: absolute;
+
+}
+
+.jacketBG {
+  background-color: rgb(242, 243, 245);
+
+}
+
+.JacketDis {
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(86, 102, 134);
+  line-height: 3.125;
+
+}
+
+.price {
+  font-size: 22px;
+  font-family: "Myriad Pro";
+  color: rgb(96, 186, 190);
+
+}
+
+.avaCol {
+  font-size: 12px;
+  font-family: "Roboto";
+
+  margin-left: 5rem;
+}
+
+
+.Available_Colors {
+  font-size: 12px;
+  font-family: "Roboto";
+  color: rgb(86, 102, 134);
+  /* line-height: 4.167; */
+
+}
+
+/* .jacketBG .iconHover {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.jacketBG:hover .iconHover {
+
+  opacity: 1;
+} */
+
+.autoswapclass .swiper-button-prev {
+
+  content: 'prev';
+  font-size: 20px;
+  background-color: rgb(96, 186, 190);
+  width: 50px;
+  left: 0px;
+  height: 50px;
+  border-radius: 50%;
+  top: 170px;
+  position: absolute;
+
+}
+
+.autoswapclass .swiper-button-next {
+
+  content: 'next';
+  font-size: 20px;
+  background-color: rgb(96, 186, 190);
+  width: 50px;
+  right: 0px;
+  height: 50px;
+  border-radius: 50%;
+  top: 170px;
+  position: absolute;
+
+}
+
+.autoswapclass .swiper-button-prev:after {
+  font-size: 20px;
+  color: rgb(242, 243, 245);
+}
+
+.autoswapclass .swiper-button-next:after {
+  font-size: 20px;
+  color: rgb(242, 243, 245);
+
+}

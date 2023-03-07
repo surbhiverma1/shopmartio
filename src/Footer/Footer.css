@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@500&display=swap');
+
+
+.ShopMartio {
+  font-size: 18px;
+  font-family: "Roboto";
+
+  color: rgb(125, 143, 179);
+
+
+}
+
+.payment {
+  border: none;
+  border-left: 3px solid rgb(96, 186, 190);
+  font-family: 'Bebas Neue';
+  font-size: 16px;
+  letter-spacing: 1px;
+
+  color: rgb(47, 57, 66);
+  font-weight: bold;
+  /* line-height: 2.273; */
+  text-align: left;
+}
+
+.payOp {
+  border: none;
+  border-left: 3px solid rgb(96, 186, 190);
+  margin-left: 35px;
+  font-family: 'Bebas Neue';
+  font-size: 22px;
+  letter-spacing: 2px;
+
+  color: rgb(47, 57, 66);
+  font-weight: bold;
+  /* line-height: 2.273; */
+  text-align: left;
+
+}
+
+a {
+  color: white;
+}
+
+.list {
+  list-style: none;
+}
+
+.list a {
+  margin: 0px;
+
+  font-family: "Roboto";
+  color: rgb(125, 143, 179);
+  font-size: 16px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(96, 186, 190);
+}
+
+.footerParent {
+  position: relative;
+  padding: 8px;
+}
+
+.upbtn {
+  position: absolute;
+  bottom: 30px;
+  border: 0px;
+  color: azure;
+  background: rgb(96, 186, 190);
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+transition: all 1s ease-in-out;
+
+}
+.upbtn:hover{
+  color: rgb(96, 186, 190);
+  background:azure ;
+  border: 2px solid rgb(96, 186, 190);
+}
+.imgHover {
+  cursor: pointer;
+}

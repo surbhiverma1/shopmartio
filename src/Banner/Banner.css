@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.bann {
+  background-image: url("Layer-21.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.Christmas {
+  font-size: 20px;
+  font-family: "Roboto";
+ color: rgb(122, 183, 186);
+  text-transform: uppercase;
+  line-height: 2.778;
+
+}
+.chrisSaleback{
+  width: 15rem;
+   padding: 0px 5px;
+   
+  color: rgb(122, 183, 186);
+  background-color: rgb(255, 255, 255);
+  border: 0px;
+
+}
+
+.winter {
+  font-size: 5rem;
+  font-family: "Myriad Pro";
+  color: rgb(255, 255, 255);
+  line-height: 1.122;
+ 
+}
+
+.winter1 {
+  font-size: 5rem;
+  font-family: "Myriad Pro";
+  color: rgb(163, 245, 96);
+  line-height: 1.122;
+ 
+}
+
+.Consectetur {
+  font-size: 1rem;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.556;
+  text-align: left;
+ }
+
+.shopNow {
+  color: rgb(122, 183, 186);
+  width: 10rem; 
+   padding: 7px;
+ background-color: rgb(255, 255, 255);
+  border: 0px;
+  cursor: pointer;
+  transition: all 1s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+ 
+}
+
+.shopNow:hover {
+  background-color: rgb(53, 43, 43);
+  color:rgb(255, 255, 255);
+  
+}
+
+
+
+.shp-offer-inner {
+  margin: 0 0 30px;
+}
+
+.shp-cads-inner {
+  -webkit-transition: all 0.5s linear 0s;
+  -moz-transition: all 0.5s linear 0s;
+  -ms-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
+  /* transition: all 0.5s linear 0s; */
+}
+
+.shp-cads-inner:hover {
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+}
+
+.shp-cads-inner a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.shp-cads-inner a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.7);
+  bottom: 0;
+  width: 150%;
+  height: 0%;
+  transform: rotate(10deg) translate(-30px, 80px);
+}
+
+.shp-cads-inner:hover>a:after {
+  height: 100%;
+  opacity: 0;
+  transform: rotate(0deg) translate(0px, 0px);
+  -webkit-transition: all 0.5s ease-out 0s;
+  -o-transition: all 0.5s ease-out 0s;
+  -moz-transition: all 0.5s ease-out 0s;
+  -ms-transition: all 0.5s ease-out 0s;
+  transition: all 0.5s ease-out 0s;
+}
+
+
+
+@media (max-width: 310px) {
+  .winter1 {
+    font-size: 1.5rem;
+    top: 25rem;
+
+  }
+
+}
+
+/* X-Small devices (portrait phones, less than 576px)
+
+ Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .BG {
+    width: 8rem;
+  }
+
+  .winter {
+    font-size: 1.5rem;
+  }
+
+  .winter1 {
+    font-size: 1.5rem;
+    top: 25rem;
+
+  }
+
+  .Christmas {
+    font-size: 0.5rem;
+  }
+
+  .Consectetur {
+    font-size: 0.8rem;
+  }
+
+  .shopNow {
+    width: 5rem;
+    padding: 1px;
+
+    font-size: 0.8rem;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .winter {
+    font-size: 2.5rem;
+  }
+
+  .winter1 {
+    font-size: 2.5rem;
+
+  }
+
+  .Christmas {
+    font-size: 0.8rem;
+  }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media screen and (max-width: 1200px) {
+  .BG {
+    width: 13rem;
+  }
+
+  .winter {
+    font-size: 3rem;
+  }
+
+  .winter1 {
+    font-size: 3rem;
+    /* font-size: 3rem; */
+    top: 16rem;
+  }
+
+
+  .Christmas {
+    font-size: 1rem;
+  }
+
+  .Consectetur {
+    top: 20rem;
+  }
+
+  .ad1 {
+    width: 100%;
+  }
+
+  .ad2 {
+    width: 100%;
+  }
+
+  .ad3 {
+    width: 100%;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) { ... } */
